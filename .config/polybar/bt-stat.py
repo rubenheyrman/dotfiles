@@ -13,7 +13,7 @@ class BTdevice():
         return self.name, self.mac
 
 
-bt_devices = {BTdevice(name='XM3', mac='38:18:4C:6D:0A:CF')}
+bt_devices = {BTdevice(name='XM3', mac='38:18:4C:6D:0A:CF'), BTdevice(name='Ine<3', mac='5C:FB:7C:6E:C6:D9')}
 
 if which("bluetoothctl") is not None:
     bt_connected = "no"

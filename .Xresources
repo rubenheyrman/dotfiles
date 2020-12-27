@@ -2,9 +2,7 @@
 
 URxvt.scrollBar: false
 
-URxvt.font: xft:UW Ttyp0:pixelsize=15
-URxvt.italicFont: xft:UW Ttyp0:pixelsize=15
-URxvt.boldFont: xft:UW Ttyp0:bold:pixelsize=15
+URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=15,xft:Font\ Awesome\ 5\ Brands:pizelsize=10 ,xft:Font\ Awesome\ 5\ Free:style=Regular:pizelsize=10 
 
 URxvt.keysym.Shift-Up: command:\033]720;1\007
 URxvt.keysym.Shift-Down: command:\033]721;1\007
@@ -19,6 +17,7 @@ URxvt.keysym.Control-Meta-c: builtin-string:
 URxvt.keysym.Control-Meta-v: builtin-string:
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
 
 URxvt.perl-lib: /usr/lib/urxvt/perl/
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select

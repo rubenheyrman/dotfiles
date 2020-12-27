@@ -51,17 +51,20 @@ fi
 #export DESKTOP_SESSION=plasma
 #exec startplasma-x11
 # Here kde is kept as default
-session=${1:-kde}
+session=${1:-bspwm}
 
 case $session in
     kde               ) export DESKTOP_SESSION=plasma && exec startplasma-x11;; #plasma-desktop;
     bspwm	      ) setxkbmap us &
 	    		$HOME/.screenlayout/double-monitor.sh
+			#$HOME/.screenlayout/double-monitor-home.sh
 			eval\ \$\(/usr/bin/gnome-keyring-daemon\ --start\ --components\=pkcs11\,secrets\,ssh\)
 			export\ SSH_AUTH_SOCK
 	    		nitrogen --restore &
 	   		xsetroot -cursor_name left_ptr 
-			picom -f & 
+			picom -f &
+			dunst &
+		        [ -z $(pgrep -u $UID -x nextcloud)] && nextcloud &	
 			exec bspwm
 			;;
     # No known session, try to run it as command

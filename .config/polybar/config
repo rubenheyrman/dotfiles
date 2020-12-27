@@ -18,7 +18,7 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #607d8b ;#331E1E1E
+background = #331E1E1E ;#607d8b
 background-alt = #bf1e1e1e
 ;foreground = ${xrdb:color7:#222}
 foreground = #ffffff
@@ -27,7 +27,7 @@ primary = #1b9fc6
 secondary = #ffffff
 alert = #bd2c40
 
-[bar/example]
+[bar/topbar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 20
@@ -73,6 +73,68 @@ tray-maxsize = 16
 tray-padding = 2
 tray-scale = 1
 tray-background = ${colors.background}
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+eursor-scroll = ns-resize
+
+[bar/topbar_second]
+monitor = ${env:MONITOR:HDMI-A-0}
+width = 100%
+height = 20
+;offset-x = 1%
+;offset-y = 1%
+radius = 0.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 1
+line-color = #00564d
+
+border-size = 0
+border-color = #0D00564d
+
+padding-left = 0
+padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = Droid Sans Mono:style=Regular:pixelsize=10;2
+# font-1 = Font Awesome 5 Brands Regular:style=Regular:pixelsize=12;2
+font-1 = unifont:fontformat=truetype:size=14:antialias=false;2
+font-2 = siji:style=Regular:pixelsize=24;2
+font-3 = Font Awesome 5 Free:pixelsize=12;2
+font-4 = Font Awesome 5 Free Solid:pixelsize=12;2
+font-5 = Font Awesome 5 Brands:pixelsize=12;2
+
+modules-left = bspwm ;i3
+;modules-center = xwindow pacman-updates
+;modules-right = filesystem pulseaudio bluetooth xkeyboard memory cpu wlan battery temperature date powermenu ;spotify eth
+
+separator = |
+
+;tray-detached = false
+;tray-position = right
+;tray-offset-x = 0
+;tray-offset-y = 0
+;tray-maxsize = 16
+;tray-padding = 2
+;tray-scale = 1
+;tray-background = ${colors.background}
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
