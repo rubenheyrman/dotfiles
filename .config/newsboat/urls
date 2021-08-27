@@ -1,0 +1,87 @@
+" "
+"----------- Linux ----------"
+https://archlinux.org/feeds/news/
+https://archlinux.org/feeds/packages/
+https://archlinux.org/feeds/releases/
+https://www.reddit.com/r/archlinux.rss
+https://lukesmith.xyz/rss.xml
+
+" "
+"----------- Chip Design ----------"
+https://www.reddit.com/r/chipdesign.rss
+
+
+" "
+"----------- Computer Architecture ----------"
+https://nitter.42l.fr/jonmasters/rss
+https://nitter.42l.fr/_onurmutlu_/rss
+https://nitter.42l.fr/chiakokhua/rss
+https://nitter.42l.fr/aschilling/rss
+https://nitter.42l.fr/migueldeicaza/rss
+https://www.reddit.com/r/RISCV.rss
+https://www.anandtech.com/rss
+
+" "
+"----------- Embedded ----------"
+https://www.reddit.com/r/embedded.rss
+
+
+" "
+"----------- Consumer Electronics ----------"
+https://nl.hardware.info/updates/all.rss
+
+
+
+" "
+"----------- Financial ----------"
+https://www.reddit.com/r/BEFire.rss
+
+ 
+" "
+"----------- YouTube ----------"
+"- TECH -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCX_t3BvnQtS5IHzto_y7tbw # Coreteks
+https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw # LinusTechTips
+https://www.youtube.com/feeds/videos.xml?channel_id=UCeeFfhMcJa1kjtfZAGskOCA # TechLinked
+https://www.youtube.com/feeds/videos.xml?channel_id=UCdBK94H6oZT2Q7l0-b0xmMg # ShortCircuit
+https://www.youtube.com/feeds/videos.xml?channel_id=UCv6J_jJa8GJqFwQNgNrMuww
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1r0DG-KEPyqOeW6o79PByw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRPdsCVuH53rcbTcEkuY4uQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UCRztjeLfNzi2nw2nffMQtGA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJMnUQKLcNNQ_KrD97_sU6w # Catapult HLS
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSnTTyp4q7jMhwECxXzMAXQ # Tech Field Day
+"- TECH COMPANIES -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5WjFrtBdufl6CZojX3D8dQ # Tesla
+https://www.youtube.com/feeds/videos.xml?channel_id=UCMdtv1z_kXj7Wd97MA7BjXA # Nokia
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7vVhkEfw4nOGp8TyDk7RcQ # Boston Dynamics
+https://www.youtube.com/feeds/videos.xml?channel_id=UCE_M8A5yxnLfW0KghEeajjw # Apple
+"- LINUX -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCwFpzG5MK5Shg_ncAhrgr9g # Awesome Open Source
+"- HDL -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJaq8Bzo3J7Hq5lyfhYO3Ew # HDL for Beginners by Stacey 
+"- MATHS -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw # 3Blue1Brown
+"- SPORTS -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2Eoq7vf4LmK7_wFs6TiMXw
+"- ENTERTAINMENT -"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC-lHJZR3Gqxm24_Vd_AJ5Yw
+https://www.youtube.com/feeds/videos.xml?channel_id=UCOaEe20W2WbMxpxzSLddwNg
+https://www.youtube.com/feeds/videos.xml?channel_id=UCr3Lrf7n3h3XGjkxTOSRMCA # Average Rob
+
+" "
+"----------- Sport ----------"
+https://sporza.be/nl/categorie/wielrennen.rss.xml
+https://sporza.be/nl/categorie/tennis.rss.xml
+
+" "
+"----------- NEWS ----------"
+"----------- BELGIUM ----------"
+https://www.vrt.be/vrtnws/nl.rss.articles.xml # Hoofdpunten
+
+"----------- WORLD ----------"
+https://news.google.com/rss/search?q=when:24h+allinurl:reuters.com&ceid=US:en&hl=en-US&gl=US # Reuters World
+
+"----------- ECONOMY ----------"
+http://www.bloomberg.com/feeds/podcasts/advantage.xml # Bloomberg Markets

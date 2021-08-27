@@ -22,9 +22,9 @@ super + Escape
 super + alt + {q,r}
 	bspc {quit,wm -r}
 
-# close and kill
+# close and kill or open powermenu if all windows closed
 super + {_,shift + }w
-	bspc node -{c,k}
+	bspc node -{c,k} || ~/.config/sxhkd/shutdown.sh
 
 # alternate between the tiled and monocle layout
 super + m
@@ -37,6 +37,16 @@ super + y
 # swap the current node and the biggest window
 super + g
 	bspc node -s biggest.window
+
+# open/close powermenu
+super + p
+	polybar-msg action "#powermenu.open.0"
+super + shift + P
+	polybar-msg action "#powermenu.close"
+
+# update packages
+super + u
+	urxvt -e yay -Syu
 
 #
 # state/flags
@@ -120,7 +130,7 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-#Volume Control
+# Volume Control
 XF86AudioLowerVolume
 	amixer set Master 5%-
 XF86AudioRaiseVolume
@@ -128,12 +138,16 @@ XF86AudioRaiseVolume
 XF86AudioMute
         amixer set Master toggle
 
-#Brightness control
+# Brightness control
 XF86MonBrightnessDown
 	~/.config/sxhkd/brightness.sh - eDP	
 XF86MonBrightnessUp
 	~/.config/sxhkd/brightness.sh + eDP
 
-#Lock screen
+# Lock screen
 super + x
-	betterlockscreen -l dimblur
+	betterlockscreen -l dimblur -t "Hullo hullo!"
+
+# Open commenly used apps
+super + alt + {b,s,f,a,d,e}
+	{firefox,spotify,thunar,pavucontrol,draw.io,emacs}
